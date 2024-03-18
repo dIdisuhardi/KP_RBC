@@ -53,23 +53,23 @@
                                 <div class="row mb-3">
                                     <div class="col-sm-3">
                                         <label for="" class="form-label">Kode Buku</label>
-                                        <input name="kode_gabungan_final" type="text" class="form-control search"
+                                        <input name="kode_gabungan_final" type="text" class="typeahead form-control search"
                                             placeholder="Kode"
                                             value="{{ isset($_GET['kode_gabungan_final']) ? $_GET['kode_gabungan_final'] : '' }}">
                                     </div>
                                     <div class="col-sm-3">
                                         <label for="" class="form-label">Judul Buku</label>
-                                        <input name="judul_buku" type="text" class="form-control search" placeholder="Judul"
+                                        <input name="judul_buku" type="text" class="typeahead form-control search" placeholder="Judul"
                                             value="{{ isset($_GET['judul_buku']) ? $_GET['judul_buku'] : '' }}">
                                     </div>
                                     <div class="col-sm-3">
                                         <label for="" class="form-label">Penulis</label>
-                                        <input name="penulis" type="text" class="form-control search" placeholder="Penulis"
+                                        <input name="penulis" type="text" class="typeahead form-control search" placeholder="Penulis"
                                             value="{{ isset($_GET['penulis']) ? $_GET['penulis'] : '' }}">
                                     </div>
                                     <div class="col-sm-3">
                                         <label for="" class="form-label">Penerbit</label>
-                                        <input name="penerbit" type="text" class="form-control search" placeholder="Penerbit"
+                                        <input name="penerbit" type="text" class="typeahead form-control search" placeholder="Penerbit"
                                             value="{{ isset($_GET['penerbit']) ? $_GET['penerbit'] : '' }}">
                                     </div>
                                     <div class="col-sm-3">

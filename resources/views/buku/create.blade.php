@@ -1,11 +1,11 @@
 @extends('boostrap/dasar')
 @section('isi_template')
 <title>Tambah Buku</title>
-<div class="land">
-    <div class="bg-2">
+<div class="land" style="padding-bottom: 2%">
+    <div class="bg-2  text-wrap">
         <div class="row">
-            <div class="col-12">
-                <h1 class="text-center"> Form Tambah Data Buku </h1>
+            <div class="col-md-12" >
+                <h1 class="text-center" > Form Tambah Data Buku </h1>
             </div>
             
         </div>

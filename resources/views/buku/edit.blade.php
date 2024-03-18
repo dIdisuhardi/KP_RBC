@@ -158,12 +158,6 @@
             </div>
         </div>
         <div class="mb-3 row">
-            <label for="status_pinjam" class="col-sm-2 col-form-label">Status Pinjam</label>
-            <div class="col-sm-10">
-                <input type="number" class="form-control form" name='status_pinjam' value="{{ $data->status_pinjam }}" id="status_pinjam">
-            </div>
-        </div>
-        <div class="mb-3 row">
             <label for="submit" class="col-sm-2 col-form-label"></label>
             <div class="col-sm-10"><button type="submit" class="btn btn-primary form_submit" name="submit">SIMPAN</button>
             </div>

@@ -83,11 +83,6 @@
                         </select>
                             </div>
                         </div>
-                        <div class="mb-3 form-check align-items-center">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Saya Hadir sebagai pengunjung Ruang Baca
-                                Computer Engineering</label>
-                        </div>
                         <div class="row">
                             <div class="col-sm-9">
                                 <br>

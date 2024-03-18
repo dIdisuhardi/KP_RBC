@@ -12,6 +12,10 @@ body {
 color: #f1f1f1;
 }
 
+.typeahead{
+  color: #f1f1f1;
+}
+
 .nav {
   display: flex;
   background: #020166;
@@ -105,7 +109,7 @@ color: #f1f1f1;
 
 .footer {
   background: #03061F;
-
+  padding: 3%;
 }
 
 .footer img {
@@ -768,6 +772,10 @@ color: #f1f1f1;
     font-size: 12px;
     line-height: 25px;
     color: #3845A7;
+  }
+
+  .footer{
+    padding: 1.5%;
   }
 
   .footer img {

@@ -14,9 +14,9 @@
     </div>
 
 <div class="panduan">
-    <div style="margin-top: 1%">
+    <div class="d-flex justify-content-center" style="margin-top: 1%">
         @if ($joins->cover_gambar)
-        <div class="card text-center">
+        <div class="card"style="max-width:350px;">
                     <img style="max-width:350px;max-height:350px" src="{{ url('storage/postingan/cover_gambar').'/' . $joins->cover_gambar}}"/>
                   </div>
         @endif

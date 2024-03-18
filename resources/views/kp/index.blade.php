@@ -18,7 +18,7 @@
                                             d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z">
                                         </path>
                                     </svg> </span> </button>
-                                    <input name="judul" type="text" class="form-control search" placeholder="Judul" value="{{isset($_GET['judul']) ? $_GET['judul'] : ''}}">
+                                    <input name="judul" type="text" class="typeahead form-control search" placeholder="Judul" value="{{isset($_GET['judul']) ? $_GET['judul'] : ''}}">
                         </div>
                     </form>
                 </div>
@@ -47,23 +47,23 @@
                             <div class="row mb-3">
                                 <div class="col-sm-2">
                                     <label for="" class="form-label">Nama Mahasiswa</label>
-                                    <input name="name" type="text" class="form-control search" placeholder="Nama" value="{{isset($_GET['name']) ? $_GET['name'] : ''}}">
+                                    <input name="name" type="text" class="typeahead form-control search" placeholder="Nama" value="{{isset($_GET['name']) ? $_GET['name'] : ''}}">
                                 </div>
                                 <div class="col-sm-2">
                                     <label for="" class="form-label">NIM Mahasiswa</label>
-                                    <input name="nim" type="text" class="form-control search" placeholder="NIM" value="{{isset($_GET['nim']) ? $_GET['nim'] : ''}}">  
+                                    <input name="nim" type="text" class="typeahead form-control search" placeholder="NIM" value="{{isset($_GET['nim']) ? $_GET['nim'] : ''}}">  
                                 </div>
                                 <div class="col-sm-2">
                                     <label for="" class="form-label">Judul KP</label>
-                                    <input name="judul" type="text" class="form-control search" placeholder="Judul KP" value="{{isset($_GET['judul']) ? $_GET['judul'] : ''}}">  
+                                    <input name="judul" type="text" class="typeahead form-control search" placeholder="Judul KP" value="{{isset($_GET['judul']) ? $_GET['judul'] : ''}}">  
                                 </div>
                                 <div class="col-sm-2">
                                     <label for="" class="form-label">Tahun</label>
-                                    <input name="tahun" type="number" class="form-control search" placeholder="Tahun" value="{{isset($_GET['tahun']) ? $_GET['tahun'] : ''}}">  
+                                    <input name="tahun" type="number" class="typeahead form-control search" placeholder="Tahun" value="{{isset($_GET['tahun']) ? $_GET['tahun'] : ''}}">  
                                 </div>
                                 <div class="col-sm-2">
                                     <label for="" class="form-label">Nama Perusahaan</label>
-                                    <input name="perusahaan" type="text" class="form-control search" placeholder="Perusahaan" value="{{isset($_GET['perusahaan']) ? $_GET['perusahaan'] : ''}}">  
+                                    <input name="perusahaan" type="text" class="typeahead form-control search" placeholder="Perusahaan" value="{{isset($_GET['perusahaan']) ? $_GET['perusahaan'] : ''}}">  
                                 </div>
                                 <div class="col-sm-2">
                                     <label for="" class="form-label">Lokasi Perusahaan</label>

@@ -14,7 +14,7 @@
                     </div>
                     <div class="col-sm-4" style="margin-top: 1%">
                         <button class="download" type="submit"
-                            href="/"style="float: right; margin-right:5%; margin-top:2%">Mobile App <br> Download <br>
+                            href="/">Mobile App <br> Download <br>
                             Here</button>
                     </div>
                 </div>
@@ -65,12 +65,7 @@
                             <option>Mengerjakan tugas</option>
                             <option>Lainnya</option>
                         </select>
-                            </div>
-                        </div>
-                        <div class="mb-3 form-check align-items-center">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Saya Hadir sebagai pengunjung Ruang Baca
-                                Computer Engineering</label>
+                    </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-9">
